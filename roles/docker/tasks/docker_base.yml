@@ -1,0 +1,6 @@
+---
+
+- name: Install docker-ce
+  homebrew:
+   name: docker
+   state: latest

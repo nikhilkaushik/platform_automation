@@ -1,0 +1,5 @@
+---
+
+- include: install_python.yml
+  tags:
+   - install_python

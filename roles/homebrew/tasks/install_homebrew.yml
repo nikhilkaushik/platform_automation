@@ -1,0 +1,12 @@
+---
+
+- name: Install homebrew
+  shell: 'yes | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+  args: 
+    creates: /usr/local/bin/brew
+
+- name: Ensure brew is present
+  homebrew:
+   state: present
+   update_homebrew: no
+

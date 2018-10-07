@@ -1,0 +1,5 @@
+---
+
+- include: docker_base.yml
+  tags:
+   - docker_base
